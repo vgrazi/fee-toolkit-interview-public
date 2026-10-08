@@ -1,0 +1,9 @@
+acme:
+  fees:
+    rounding-mode: HALF_EVEN
+    scale: 2
+    tiers:
+      - up-to-amount: 1000
+        rate: 0.020
+      - up-to-amount: 10000
+        rate: 0.015
